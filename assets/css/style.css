@@ -1,0 +1,108 @@
+html,body{
+	padding: 0px;
+	margin:0px;
+	font-family: sans-serif;
+}
+
+#menu-vertical ul{
+	background: #f1f1f1;
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	width: 200px;
+}
+
+#menu-vertical ul li a{
+	padding: 8px 0px 8px 16px;
+	display: block;
+	text-decoration: none;
+}
+
+#menu-vertical ul li a.active{
+	background: #4CAF50;
+	color:#fff;
+}
+
+#menu-vertical ul li a:hover{
+	color:white;
+	background: #4CAF50; 
+}
+
+#menu-horizontal ul{
+	background: #000;
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#menu-horizontal ul li{
+	float:left;
+}
+
+#menu-horizontal ul li a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color:white;
+	text-align: center;
+}
+
+#menu-horizontal ul li.active{
+	background: #4CAF50;
+}
+#menu-horizontal ul li a:hover{
+	background: #4CAF50; 
+	color:white;
+}
+
+.container{
+	margin:5px auto;
+	padding:5px;
+	width: 95%;
+}
+
+h1,h2{
+	font-weight: 100;
+}
+h1.page-title{
+	font-size: 40px;
+}
+
+.center{
+	text-align: center;
+}
+
+.todo{
+	width: 80%;
+	border:1px #fff solid;
+    box-shadow: 5px 0 10px -2px #ccc;
+	padding: 20px 10px;
+	background: #eee;
+}
+.todo input[type=text]{
+	font-size: 20px;
+	font-weight: 100;
+	width: 95%;
+	display: block;
+	border:none;
+	margin:0 auto;
+	padding: 10px 0px 10px 5px;
+	margin:10px;
+}
+.btn{
+	margin:1px;
+	padding:10px;
+	background: #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn.btn-success{
+	background: #4CAF50;
+	color:white;
+}
+.btn.btn-danger{
+	background: red;
+	color:white;
+}
